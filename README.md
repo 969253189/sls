@@ -1,2 +1,0 @@
-# sls
-Log Service
