@@ -132,7 +132,7 @@ class LinkedList {
 // 向开头位置插入数据；链表比数组快很多
 console.log(new Date().getTime());
 let linkedListTest = new LinkedList();
-for (let index = 0; index <= 100000; index++) linkedListTest.insert(0, index);
+for (let index = 0; index <= 10000000; index++) linkedListTest.insert(0, index);
 linkedListTest.data = linkedListTest.reverse(linkedListTest.data);
 console.log(new Date().getTime(), linkedListTest);
 
